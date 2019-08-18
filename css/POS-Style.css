@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-color: rgba(222, 220, 255, 0.71);
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    font-size: 30px;
+}
+
+#nav-bar {
+    background-color: rgb(201, 200, 226);
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+}
+
+#nav-bar td {
+    border: 0;
+    padding: 10px;
+}
+
+#nav-bar i {
+    font-size: 30px !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#table_2 input {
+    width: 80%;
+    height: 20px;
+}
+
+#table_2 {
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 20px;
+}
+
+.lable {
+    padding: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+#table_3 {
+    border: #d5d5d5;
+}
+#table_3 th{
+    width: 11%;
+}
+#table_3 td {
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+}
+#btn_submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: rgba(0,0,255,0.3);
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+}
+#btn_reset{
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    background-color: rgba(255,0,0,0.3);
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+}
+
+.order-tables{
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+#order-tables input{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+}
+.order-tables-label{
+    text-align: right;
+}
+
+.order-tables-main{
+    color: darkblue;
+}
+
+#btn_submit-order{
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: rgba(0,0,255,0.3);
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+}
+
+#order-grid{
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+
+#order-grid td{
+    text-align: center;
+    width: 20%;
+    height: 20px;
+}
+
+#order-calculate{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+#order-calculate input{
+    height: 25px;
+}
+.order-calculate-label{
+    padding-left: 30px;
+}
+#order-calculate td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#btn_submit-orders{
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    margin-bottom: 18px;
+    background-color: rgba(0,0,255,0.3);
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+}
+#btn_reset_order{
+    width: 150px;
+    height: 40px;
+    border-radius: 10%;
+    margin-bottom: 18px;
+    background-color: rgba(255,0,0,0.3);
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+}

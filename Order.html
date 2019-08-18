@@ -1,0 +1,313 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>POS System/Order</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/POS-Style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+<fieldset>
+    <table width="100%">
+        <thead id="nav-bar">
+        <tr>
+            <td width="5%" align="left" id="logo">
+                <img src="images/POS.png" alt="" width="60px">
+            </td>
+            <td>
+                <label>POS SYSTEM-ORDER</label>
+            </td>
+            <td width="15%" align="center">
+                <a href="Customer.html">
+                    <i class="fas fa-users"></i>
+                    <br>
+                    Customer
+                </a>
+            </td>
+            <td width="15%" align="center">
+                <a href="Item.html">
+                    <i class="fas fa-box-open"></i>
+                    <br>
+                    Items
+                </a>
+            </td>
+            <td width="15%" align="center">
+                <a href="Order.html">
+                    <i class="fas fa-cart-plus"></i>
+                    <br>
+                    Order
+                </a>
+            </td>
+        </tr>
+        </thead>
+    </table>
+
+    <table width="30%" class="order-tables">
+        <thead>
+        <tr>
+            <td colspan="2" class="order-tables-main">
+                ORDER DETAILS
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="order-tables-label" width="40%">
+                Order ID :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Order Date :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <table width="30%" class="order-tables">
+        <thead>
+        <tr>
+            <td colspan="2" class="order-tables-main">
+                CUSTOMER DETAILS
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="order-tables-label" width="40%">
+                Customer ID :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                First Name :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Last Name :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+
+    <table width="30%" class="order-tables">
+        <thead>
+        <tr>
+            <td colspan="2" class="order-tables-main">
+                ITEM DETAILS
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="order-tables-label" width="40%">
+                Item Code :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Item Name :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Available Qty :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Unit Price :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td class="order-tables-label">
+                Quantity :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right">
+                <button type="submit" id="btn_submit-order">ADD</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <table width="68%" border="1px" id="order-grid">
+        <thead>
+        <tr>
+            <td>ITEM CODE</td>
+            <td>ITEM NAME</td>
+            <td>UNIT PRICE</td>
+            <td>QUANTITY</td>
+            <td>TOTAL</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="4" style="text-align: right">
+                TOTAL
+            </td>
+            <td></td>
+        </tr>
+        </tfoot>
+    </table>
+
+    <table id="order-calculate" align="right">
+        <tbody>
+        <tr>
+            <td class="order-calculate-label" style="color: blue">
+                Total :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td class="order-calculate-label" style="color: green">
+                Discount :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td class="order-calculate-label" style="color: red">
+                Sub Total :
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"></td>
+            <td>
+                <button type="submit" id="btn_submit-orders">PROCEED</button>
+            </td>
+            <td>
+                <button type="reset" id="btn_reset_order">RESET</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+</fieldset>
+</body>
+</html>
